@@ -2,7 +2,6 @@
 
 [HomeBridge](https://github.com/nfarina/homebridge) plugin to control Livolo zigbee switches.
 
-WARNING: not published to npm yet
 
 ## Installation
 1. Install [HomeBridge](https://github.com/nfarina/homebridge).
