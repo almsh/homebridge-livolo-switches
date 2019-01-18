@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-livolo-switches",
+  "version": "0.0.1-alpha.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "almsh",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mqtt": "^2.18.8",
+    "node-fetch": "^2.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.0"
+  }
+}
