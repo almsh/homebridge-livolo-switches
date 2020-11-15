@@ -96,7 +96,7 @@ LivoloSwitches.prototype.addButton = function({ id, name, state }) {
     .getCharacteristic(Characteristic.On)
     .on('set', (value, callback) => {
       platform.livoloClient
-        .setOn(accessory.context.livoloId, value)
+        .setOn(newButton.context.livoloId, value)
         .then(callback);
     });
 
